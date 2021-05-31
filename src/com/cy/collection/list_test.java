@@ -37,7 +37,7 @@ public class list_test {
         mapList1.add(map);
         mapList.removeAll(mapList1);
 
-        //序列化
+        //序列化的对象必须实现Serializable接口
         ObjectOutputStream oos= new ObjectOutputStream(new FileOutputStream("D://out.text"));
         oos.writeObject(mapList);
 
@@ -46,6 +46,8 @@ public class list_test {
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream(file));
         ArrayList<Map<String,String>> arrayList2 = (ArrayList<Map<String,String>>)ois.readObject();
         System.out.println(arrayList2.toString());
+
+
         List<Integer> linkedList = new LinkedList<>();
 
 
