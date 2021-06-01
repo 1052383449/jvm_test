@@ -49,7 +49,8 @@ public class list_test {
 
 
         List<Integer> linkedList = new LinkedList<>();
-
+        linkedList.add(1);
+        linkedList.set(1,1);
 
 
     }
