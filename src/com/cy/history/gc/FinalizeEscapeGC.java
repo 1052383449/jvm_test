@@ -1,4 +1,4 @@
-package com.cy.gc;
+package com.cy.history.gc;
 
 /**
  * 此代码演示了两点：

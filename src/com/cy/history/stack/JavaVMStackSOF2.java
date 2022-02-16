@@ -1,4 +1,4 @@
-package com.cy.stack;
+package com.cy.history.stack;
 
 public class JavaVMStackSOF2 {
     private static int stackLength = 0;
