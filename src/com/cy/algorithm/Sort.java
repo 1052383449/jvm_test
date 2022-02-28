@@ -24,14 +24,14 @@ public class Sort {
         System.out.println(Arrays.toString(nums));*/
 
         //归并排序
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] nums = new int[n];
-        for (int i = 0; i < n; ++i) {
+        /*Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();*/
+        int[] nums = {22,11,55,8,7,18,1};
+       /* for (int i = 0; i < n; ++i) {
             nums[i] = sc.nextInt();
-        }
-        mergeSort(nums, 0, n - 1);
-        for (int i = 0; i < n; ++i) {
+        }*/
+        mergeSort(nums, 0, nums.length);
+        for (int i = 0; i < nums.length; ++i) {
             System.out.printf("%d ", nums[i]);
         }
     }
